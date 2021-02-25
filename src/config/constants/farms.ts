@@ -17,7 +17,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
     order: 0,
-    rewardMultiplier: 1,
+    rewardMultiplier: 10,
   },
   {
     pid: 1,
@@ -34,7 +34,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
     order: 1,
-    rewardMultiplier: 1,
+    rewardMultiplier: 10,
   },
   {
     pid: 4,
@@ -51,7 +51,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
     order: 4,
-    rewardMultiplier: 1,
+    rewardMultiplier: 10,
   },
   {
     pid: 2,
@@ -68,7 +68,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
     order: 2,
-    rewardMultiplier: 1,
+    rewardMultiplier: 10,
   },
 
   {
@@ -86,7 +86,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
     order: 3,
-    rewardMultiplier: 1,
+    rewardMultiplier: 10,
   },
 ]
 
