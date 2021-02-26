@@ -13,7 +13,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.CORE,
     projectLink: 'https://teamrocket.app/',
     harvest: true,
-    tokenPerBlock: '7',
+    tokenPerBlock: '70',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,

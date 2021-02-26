@@ -88,6 +88,79 @@ const farms: FarmConfig[] = [
     order: 3,
     rewardMultiplier: 10,
   },
+
+  {
+    pid: 6,
+    lpSymbol: 'WYNAUT-CAKE LP',
+    lpAddresses: {
+      97: '0x2f7682b64b88149ba3250aee32db712964de5fa9',
+      56: '0xD0f29422CaFAF6091fB033A4b9094bE12255f849',
+    },
+    tokenSymbol: 'WYNAUT',
+    tokenAddresses: {
+      97: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+      56: '0x067a5ad3f0f91acf512ffe66ea77f37b4dcaaf18',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+    order: 4,
+    rewardMultiplier: 10,
+  },
+
+  {
+    pid: 7,
+    lpSymbol: 'WYNAUT-BUSD LP',
+    lpAddresses: {
+      97: '0x2f7682b64b88149ba3250aee32db712964de5fa9',
+      56: '0xD0f29422CaFAF6091fB033A4b9094bE12255f849',
+    },
+    tokenSymbol: 'WYNAUT',
+    tokenAddresses: {
+      97: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+      56: '0x067a5ad3f0f91acf512ffe66ea77f37b4dcaaf18',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+    order: 5,
+    rewardMultiplier: 10,
+  },
+
+    {
+    pid: 7,
+    lpSymbol: 'MEOWTH-CAKE LP',
+    lpAddresses: {
+      97: '0x2f7682b64b88149ba3250aee32db712964de5fa9',
+      56: '0xD0f29422CaFAF6091fB033A4b9094bE12255f849',
+    },
+    tokenSymbol: 'MEOWTH',
+    tokenAddresses: {
+      97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+      56: '0xE561479bEbEE0e606c19bB1973Fc4761613e3C42',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+    order: 6,
+    rewardMultiplier: 10,
+  },
+
+      {
+    pid: 8,
+    lpSymbol: 'MEOWTH-BUSD LP',
+    lpAddresses: {
+      97: '0x2f7682b64b88149ba3250aee32db712964de5fa9',
+      56: '0xD0f29422CaFAF6091fB033A4b9094bE12255f849',
+    },
+    tokenSymbol: 'MEOWTH',
+    tokenAddresses: {
+      97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+      56: '0xE561479bEbEE0e606c19bB1973Fc4761613e3C42',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+    order: 7,
+    rewardMultiplier: 10,
+  },
+
 ]
 
 export default farms
